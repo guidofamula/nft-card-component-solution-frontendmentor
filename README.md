@@ -8,13 +8,13 @@
 
 <div align="center">
   <h3>
-    <a href="https://www.frontendmentor.io/solutions/qr-code-component-q6EKvkLntv" color="white">
+    <a href="https://www.frontendmentor.io/solutions/qr-code-component-q6EKvkLntv" target='_blank' color="white">
       Solution URL
     </a>
-  <span> ~||~ </span>    <a href="https://guidofamula.github.io/nft-card-component-solution-frontendmentor/">
+  <span> ~||~ </span>    <a target='_blank' href="https://guidofamula.github.io/nft-card-component-solution-frontendmentor/">
       Live URL
     </a>
-  <span> ~||~ </span>    <a href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U">
+  <span> ~||~ </span>    <a target='_blank' href="https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U">
       Challenge URL
     </a>
   </h3>
