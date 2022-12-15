@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link href="./src/assets/css/styles.css" rel="stylesheet" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./src/assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body>
+    <div
+      id="content"
+      class="flex min-h-screen grid place-content-center bg-custom-v-d-blue1"
+    >
+      <main>
+        <div class="container">
+          <div
+            class="flex justify-center bg-custom-v-d-blue2 rounded-2xl max-w-sm md:max-w-xs"
+          >
+            <div class="m-4 relative">
+              <img
+                class="rounded-lg mb-2 cursor-pointer"
+                src="./src/assets/images/image-equilibrium.jpg"
+                alt="NFT Image Equilibrium"
+              />
+              <div
+                class="bg-opacity-0 opacity-0 rounded-lg bg-custom-cyan h-[288px] absolute top-0 right-0 left-0 bottom-0 hover:bg-opacity-30 hover:opacity-90 hover:z-0 cursor-pointer transition duration-400 ease-in-out"
+              >
+                <img
+                  class="flex grid place-content-center mx-auto py-[116px]"
+                  src="./src/assets/images/icon-view.svg"
+                  alt="Icon view while hover"
+                />
+              </div>
+              <section>
+                <div class="p-2">
+                  <h1
+                    class="font-bold text-custom-white text-[20px] hover:text-custom-cyan tracking-wide mb-2 transition duration-400 ease-in-out cursor-pointer"
+                  >
+                    Equilibrium #3429
+                  </h1>
+                  <p class="text-custom-white text-opacity-30">
+                    Our Equilibrium collection promotes balance and calm.
+                  </p>
+                  <div class="flex flex-row justify-between mt-4">
+                    <img
+                      class="h-5 pt-1"
+                      src="./src/assets/images/icon-ethereum.svg"
+                      alt="Icon ethereum for price"
+                    />
+                    <p class="text-custom-cyan font-bold mx-1.5">0.041 ETH</p>
+                    <img
+                      class="h-4 m-auto pl-20"
+                      src="./src/assets/images/icon-clock.svg"
+                    />
+                    <p class="text-custom-white text-opacity-50">3 days left</p>
+                  </div>
+                  <div
+                    class="border-t-[1px] border-custom-v-d-blue3 mt-4"
+                  ></div>
+                  <div class="flex flex-row mt-4">
+                    <img
+                      class="md:w-5 md:h-5 sm:w-8 sm:h-8 border rounded-full"
+                      src="./src/assets/images/image-avatar.png"
+                      alt="Image for avatar"
+                    />
+                    <p
+                      class="text-paragraph font-regular pl-4 sm:max-md:mt-[3px] text-custom-white text-opacity-30"
+                    >
+                      Creation of
+                      <span
+                        class="text-custom-white hover:text-custom-cyan transition duration-400 ease-in-out cursor-pointer"
+                        >Jules Wyvern</span
+                      >
+                    </p>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+      </main>
+
+      <!-- Attribution footer -->
+      <footer>
+        <div class="attribution mt-3">
+          <span class="text-custom-white text-opacity-30">Challenge by</span>
+          <a
+            class="text-custom-cyan text-opacity-50 hover:text-custom-white hover:text-opacity-50 transition duration-700 ease-in-out"
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            >Frontend Mentor</a
+          >.
+          <span class="text-custom-white text-opacity-30">Coded by</span>
+          <a
+            class="text-custom-cyan text-opacity-50 hover:text-custom-white hover:text-opacity-50 transition duration-700 ease-in-out"
+            href="#"
+            >Guido Famula</a
+          >.
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
